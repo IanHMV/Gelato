@@ -204,13 +204,14 @@ section{
 /* Adaptable Responsivo */
 /* De los 767 pa abajo se aplica esto */
 @media screen and (max-width: 767px){
-	.navbar-brand{
-        display: flex;
-		align-items: center;
-        justify-content: center;
-	}
-    .navbar-brand img{
-        width: 200px;
-	}
+	.carousel-inner .imagen1 img{
+        content: url(helao-4.jpg);
+    }
+	.carousel-inner .imagen2 img{
+        content: url(helao-5.jpg);
+    }
+	.carousel-inner .imagen3 img{
+        content: url(helao-6.jpg);
+    }
 }
 
