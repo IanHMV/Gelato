@@ -99,7 +99,7 @@ section{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    opacity: .85;
+    opacity: .70;
 }
 
 .carousel-item h5{
@@ -126,6 +126,7 @@ section{
 .carousel-caption a .btn-primary{  
     padding: 10px 1em;
     margin: 20px;
+    min-width: 250px;
     background-color: #F5B220;
     border: 5px solid #fff;
     border-radius: 50px;
@@ -209,8 +210,25 @@ section{
 /* Adaptable Responsivo */
 /* De los 767 pa abajo se aplica esto */
 @media screen and (max-width: 767px){
+
+    .carousel-inner .imagen1 .carousel-caption{
+        margin: 50px 0px 50px 0px;
+        width: 70%;
+        height: 70%;
+    }
+	.carousel-inner .imagen2 .carousel-caption{
+        margin: 50px 0px 50px 0px;
+        width: 70%;
+        height: 70%;
+    }
+	.carousel-inner  .imagen3 .carousel-caption{
+        margin: 50px 0px 50px 0px;
+        width: 70%;
+        height: 80%;
+    }
+
 	.carousel-inner .imagen1 img{
-        content: url(helao-4.jpg);
+        content: url(helao-6.jpg);
     }
 	.carousel-inner .imagen2 img{
         content: url(helao-5.jpg);
@@ -219,11 +237,7 @@ section{
         content: url(helao-6.jpg);
     }
 
-    .carousel-caption{
-        margin: 500px 0px 50px 0px;
-        width: 70%;
-        height: 80%;
-    }
+    
     .carousel-caption a .btn-primary{
         min-width: 250px;
         margin: 5px 0px;
