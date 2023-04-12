@@ -247,7 +247,7 @@ section{
 
 @media screen and (max-width: 400px){
     .carousel-inner .imagen1 .carousel-caption{
-        margin: 100px 0px;
+        margin: 200px 0px;
         width: 70%;
         height: 60%;
     }
