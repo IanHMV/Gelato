@@ -211,20 +211,12 @@ section{
 /* De los 767 pa abajo se aplica esto */
 @media screen and (max-width: 767px){
 
-    .carousel-inner .imagen1 .carousel-caption{
-        margin: 50px 0px 50px 0px;
-        width: 70%;
-        height: 70%;
-    }
-	.carousel-inner .imagen2 .carousel-caption{
-        margin: 50px 0px 50px 0px;
-        width: 70%;
-        height: 70%;
-    }
-	.carousel-inner  .imagen3 .carousel-caption{
-        margin: 50px 0px 50px 0px;
-        width: 70%;
-        height: 80%;
+    .carousel-inner  .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
     }
 
 	.carousel-inner .imagen1 img{
@@ -246,7 +238,15 @@ section{
 }
 
 @media screen and (max-width: 400px){
-    .carousel-inner .imagen1 .carousel-caption{
+
+    .carousel-inner  .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    }
+    /* .carousel-inner .imagen1 .carousel-caption{
         margin: 200px 0px;
         width: 70%;
         height: 60%;
@@ -260,7 +260,7 @@ section{
         margin: 50px 0px 50px 0px;
         width: 70%;
         height: 80%;
-    }
+    } */
 
     .carousel-caption a .btn-primary{
         min-width: 180px;
