@@ -246,6 +246,22 @@ section{
 }
 
 @media screen and (max-width: 400px){
+    .carousel-inner .imagen1 .carousel-caption{
+        margin: 100px 0px;
+        width: 70%;
+        height: 60%;
+    }
+	.carousel-inner .imagen2 .carousel-caption{
+        margin: 100px 0px;
+        width: 70%;
+        height: 60%;
+    }
+	.carousel-inner  .imagen3 .carousel-caption{
+        margin: 50px 0px 50px 0px;
+        width: 70%;
+        height: 80%;
+    }
+
     .carousel-caption a .btn-primary{
         min-width: 180px;
         font-size: 15px;
