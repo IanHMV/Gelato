@@ -90,7 +90,6 @@ section{
     height: 100vh;
 }
 
-
 .carousel-inner .carousel-item{
     transition: all 2s ease-in-out;
 }
@@ -121,6 +120,7 @@ section{
 .carousel-caption{
     background-color: rgb(255, 255, 255,.5);
     border-radius: 20px;
+    margin: 200px 0px;
 }
 
 .carousel-caption a .btn-primary{  
@@ -156,9 +156,6 @@ section{
     border-radius: 50%;
   }
 
-.carousel-caption{
-    margin: 200px 0px;
-}
 
 
 /* Footer */
@@ -205,11 +202,29 @@ section{
 
 .iconos-redes-sociales a:hover i{
 	color: #000;
+    
 }
 
+
+
+
 /* Adaptable Responsivo */
+@media screen and (max-width: 1250px){
+    .carousel-caption{
+        margin: 100px 0 ;
+    }
+}
+
+
+
+
 /* De los 767 pa abajo se aplica esto */
 @media screen and (max-width: 767px){
+
+
+    .carousel-caption{
+        margin: 100px 0 ;
+    }
 
     .carousel-inner  .carousel-caption{
         display: flex;
@@ -260,6 +275,13 @@ section{
     }
 }
 
+@media screen and (max-width: 600px){
+    .carousel-inner  .carousel-caption{
+        height: 70%;
+        width: 70%;
+    }
+}
+
 
 @media screen and (max-width: 400px){
 
@@ -269,6 +291,7 @@ section{
         justify-content: center;
         align-items: center;
         height: 60%;
+        margin: 150px 0;
     }
 
 
@@ -282,3 +305,33 @@ section{
     }
 }
 
+@media screen and (max-width: 300px){
+    .carousel-inner  .carousel-caption {
+        height: 70%;
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-height: 900px) and (min-width: 500px) {
+    .carousel-inner  .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        margin: 300px 0px;
+    }
+
+
+    .carousel-inner .imagen1 img{
+        content: url(helao-6.jpg);
+    }
+	.carousel-inner .imagen2 img{
+        content: url(helao-5.jpg);
+    }
+	.carousel-inner .imagen3 img{
+        content: url(helao-6.jpg);
+    }
+
+}
