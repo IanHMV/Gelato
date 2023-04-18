@@ -313,7 +313,7 @@ section{
 }
 
 
-@media screen and (min-width: 500px) and (min-height: 1000px){
+@media screen and (max-width: 920px) and (min-height: 1000px){
     .carousel-inner  .carousel-caption{
         display: flex;
         flex-direction: column;
