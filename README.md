@@ -7,7 +7,7 @@ HTML y CSS
 Framework:
 Boostrap
 
-Resposive!!!
+Responsive!!!
 
 El enlace para que lo puedan ver sin necesidad de descargarlo: https://finestra-pagina-web.netlify.app/
 
