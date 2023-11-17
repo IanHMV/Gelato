@@ -7,6 +7,8 @@ HTML y CSS
 Framework:
 Boostrap
 
+https://finestra-pagina-web.netlify.app/
+
 >>>Pagina Principal:
 [![Finestra.jpg](https://i.postimg.cc/BnHp6KHK/Finestra.jpg)](https://postimg.cc/WdpgYt9N)
 
@@ -14,4 +16,3 @@ Esta pagina se elaboro para el proyecto de una materia, en donde se muestra el m
 Y en el foooter vienen las redes sociales que tiene el negocio.
 
 El enlace para que lo puedan ver sin necesidad de descargarlo:
-https://finestra-pagina-web.netlify.app/
