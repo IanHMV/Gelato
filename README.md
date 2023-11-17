@@ -1,7 +1,8 @@
 # Gelato
 
 Pagina web de Finestra
-Lenguaejes utilizados 
+
+Tecnologias utilizados 
 HTML y CSS
 
 Framework:
