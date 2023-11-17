@@ -8,7 +8,7 @@ Framework:
 Boostrap
 
 >>>Pagina Principal:
-[![Finestra.png]([https://i.postimg.cc/x1SBjYht/Finestra.png)](https://postimg.cc/nC0308HD](https://finestra-pagina-web.netlify.app/))
+[![Finestra.jpg](https://i.postimg.cc/BnHp6KHK/Finestra.jpg)](https://postimg.cc/WdpgYt9N)
 
 Esta pagina se elaboro para el proyecto de una materia, en donde se muestra el menu, promociones y el contacto.
 Y en el foooter vienen las redes sociales que tiene el negocio.
